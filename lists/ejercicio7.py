@@ -5,9 +5,9 @@
 lista1 = []
 lista2 = []
 lista3 = []
-for indice in range(1,6):
+for indice in range(0,5):
 	lista1.append(int(input("Introduce el elemento %d del vector1:" % indice)))
-for indice in range(1,6):
+for indice in range(0,5):
 	lista2.append(int(input("Introduce el elemento %d del vector2:" % indice)))
 
 for indice in range(0,5):
@@ -15,4 +15,4 @@ for indice in range(0,5):
 
 print("La suma de los vectores es:")
 for numero in lista3:
-	print(numero," ",end="")
+	print(numero," ")
