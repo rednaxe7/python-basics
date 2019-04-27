@@ -7,10 +7,10 @@
 # * Terminar
 
 lista = []
-cadena = input("Introduce una cadena. (* para temianar):")
+cadena = input("Introduce una cadena. (* para terminar):")
 while cadena != "*":
     lista.append(cadena)
-    cadena = input("Introduce una cadena. (* para temianar):")
+    cadena = input("Introduce una cadena. (* para terminar):")
 while True:
     print("\n")
     print("1. Contar")
