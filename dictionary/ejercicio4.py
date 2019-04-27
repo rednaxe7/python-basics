@@ -9,7 +9,7 @@
 # Nota: si se introduce el nombre de un alumno que ya existe el programa nos dará un error.
 
 alumnos = {}
-cantidad = int(input("Introduce la cantidad de alumnos que vamos a guradar:"))
+cantidad = int(input("Introduce la cantidad de alumnos que vamos a guardar:"))
 for num in range(cantidad):
     alumno = input("Nombre del alumno:")
     while alumno in alumnos:
