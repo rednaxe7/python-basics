@@ -2,6 +2,9 @@
 # Suponemos que tenemos una pantalla de 80 caracteres de ancho. 
 # Para centrar usamos la formula 40 - (Longitud(cad)/2)
 # Parámetros de entrada: cadena a imprimir centrada
+"""Si la funcion no se define primero, no se puede utilizar"""
+"""mensaje3 = "Otro mensaje" """
+"""centrar(mensaje3)"""
 
 
 def centrar(cad):
@@ -18,5 +21,7 @@ mensaje1 = "Un mensaje centrado"
 centrar(mensaje1)
 mensaje2 = "Otro mensaje"
 centrar(mensaje2)
+
+print( int(len(mensaje1)/2) )
 
 	
